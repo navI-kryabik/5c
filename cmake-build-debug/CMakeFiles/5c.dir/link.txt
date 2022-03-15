@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\5c.dir/objects.a
+F:\MinGw\mingw64\bin\ar.exe cr CMakeFiles\5c.dir/objects.a @CMakeFiles\5c.dir\objects1.rsp
+F:\MinGw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\5c.dir/objects.a -Wl,--no-whole-archive -o 5c.exe -Wl,--out-implib,lib5c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\5c.dir\linklibs.rsp
